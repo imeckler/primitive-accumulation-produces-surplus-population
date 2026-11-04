@@ -13,15 +13,32 @@ there would have to be an extension of the working day, past their current work 
 our argument is that would require then even more land if all those people were to be put to work
 here's why:
 
-we have N indigenous people each working h hours for subsistence
-we dispossess N people. need to get more product than N to have a surplus
+assume one indigenous person initially subsists on each unit of land.
+acquiring q units of land therefore displaces q people in total.
 
-q > N product
-requires
-q > N units of land
+use a common production period: each unit of land can yield at most one product
+in that period. producing q products therefore requires at least q units of land.
 
-So putting those people to productive work would require even more land than you've just seized. 
-Therefore you will have q - N surplus people.
+we initially dispossess N people of N units of land, where N > 0.
+employing those N people requires N products for their subsistence.
+to have a surplus after providing that subsistence, we need q > N products.
+with the technique held constant and h > 0, this requires q * h hours of work,
+so the average working time of the N employed people is (q / N) * h > h.
+
+acquiring exactly q units of land displaces q people in total, including the
+initial N people. the additional q - N units displace another q - N people.
+if N of the q displaced people are employed, q - N > 0 people are left without
+employment or subsistence land in this model. these are the surplus population.
+
+more generally, let L be the total land acquired, E the number employed, and Q
+the output in the same period. displacement is L people, land capacity gives
+Q <= L, and a positive surplus after subsistence for employed workers gives
+E < Q. therefore E < L, and the surplus population L - E is positive.
+this also covers attempts to employ more of the displaced people: employing
+all L people would leave no positive surplus under these assumptions.
+
+this is an accounting result for one period. a theorem about evolution will
+also need states and transitions that preserve these assumptions.
 
 Provide some suggestions on the formalization. Should we bother adding a spacial aspect to the picture at all or keep it more abstract?
 
