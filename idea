@@ -1,0 +1,27 @@
+our goal is to produce a lean development that proves the following theorem:
+
+the evolution of a model of capitalism produces a surplus population along its frontier of primitive accumulation.
+
+more on the model:
+
+production proceeds via the transition (i.e., technique, held constant):
+1 person, 1 unit of land, h hours -> 1 product
+
+there would have to be an extension of the working day, past their current work which provides for their subsistence, of the colonized indigenous people in order for dispossession to produce a surplus that the dispossesor can appropriate
+(otherwise no surplus since we're not improving technique)
+
+our argument is that would require then even more land if all those people were to be put to work
+here's why:
+
+we have N indigenous people each working h hours for subsistence
+we dispossess N people. need to get more product than N to have a surplus
+
+q > N product
+requires
+q > N units of land
+
+So putting those people to productive work would require even more land than you've just seized. 
+Therefore you will have q - N surplus people.
+
+Provide some suggestions on the formalization. Should we bother adding a spacial aspect to the picture at all or keep it more abstract?
+
