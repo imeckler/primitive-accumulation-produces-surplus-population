@@ -1,0 +1,14 @@
+name = "colonized-surplus-population"
+version = "0.1.0"
+defaultTargets = ["PrimitiveAccumulation", "Tests"]
+testDriver = "Tests"
+
+[leanOptions]
+autoImplicit = false
+warningAsError = true
+
+[[lean_lib]]
+name = "PrimitiveAccumulation"
+
+[[lean_lib]]
+name = "Tests"

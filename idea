@@ -42,3 +42,11 @@ also need states and transitions that preserve these assumptions.
 
 Provide some suggestions on the formalization. Should we bother adding a spacial aspect to the picture at all or keep it more abstract?
 
+profitable means
+employed < output
+but 
+output <= land
+and
+land = # people displaced
+therefore
+employed < displaced
